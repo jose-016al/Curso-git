@@ -6,7 +6,7 @@
 ```
 git init
 ```
-### --2. Antes de hacer un commit debemos añadir a stage area
+### ⋅⋅2. Antes de hacer un commit debemos añadir a stage area
 #### Con . nos referimos al directorio actual o podemos especificar los archivos que queramos añadir a stage area 
 ```
 git add . 
