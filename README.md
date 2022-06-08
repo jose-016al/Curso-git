@@ -9,6 +9,8 @@
   - [Subir repositorio](#subir-repositorio)
   - [Clonar repositorio](#clonar-repositorio)
   - [Ramas](#ramas)
+  - [Mezclar ramas](#mezclar-ramas)
+- [Markdown](#markdown)
 
 # Git
 Inicializar un repositorio Git en local, se crea una carpeta y una vez dentro de la carpeta 
@@ -74,7 +76,7 @@ git reset --hard bd59bb
 # GitHub
 
 ## Subir repositorio
-Generemos las claves SSH a traves de **[Github](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), una vez generada debemos añadirla a nuestro perfil de github
+Generemos las claves SSH a traves de [Github](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), una vez generada debemos añadirla a nuestro perfil de github
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
@@ -109,28 +111,13 @@ Cuando creamos una rama debemos crearla tambien en el remoto, es decir en github
 ```bash
 git push -u origin feature-post-styles
 ```
-```bash
 
-```
+## Mezclar ramas
+Podemos mezclar ramas desde github con pull request, pero tambien podemos acerlo de forma local
 ```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
-```
-```bash
-
+git merge feature-post-styles
 ```
 
-
-### El archivo README.md trabaja bajo el lenguaje Markdown, para saber mas sobre Markdown podemos ver la guia [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Markdown Cheatsheet")
+# Markdown
+El archivo README.md trabaja bajo el lenguaje Markdown, para saber mas sobre Markdown podemos ver la guia [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Markdown Cheatsheet")
 
