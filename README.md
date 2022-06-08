@@ -1,4 +1,4 @@
-# Git ![Git](./img/logo.png)
+# Git ![Git](./img/git.png)
 
 # Tabla de contenidos
 - [Git](#git)
