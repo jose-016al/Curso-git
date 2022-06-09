@@ -11,6 +11,7 @@
   - [Ramas](#ramas)
   - [Mezclar ramas](#mezclar-ramas)
 - [Markdown](#markdown)
+  - [Titulos](#titulos)
 
 # Git
 Inicializar un repositorio Git en local, se crea una carpeta y una vez dentro de la carpeta 
@@ -121,3 +122,18 @@ git merge feature-post-styles
 # Markdown
 El archivo README.md trabaja bajo el lenguaje Markdown, para saber mas sobre Markdown podemos ver la guia [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Markdown Cheatsheet")
 
+## Titulos
+```markdown
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+```
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
